@@ -1,0 +1,347 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    text-decoration: none;
+    --color:var(--color-black)
+}
+
+:root{
+    --color-black:rgb(15, 15, 15);
+    --color-white:white;
+    --color-yellow:yellow;
+      --color-grren:green;
+}
+html{
+    font-size: calc(10px+1vmin);
+}
+a{
+    display: inline-block;
+    color: var(--color-black);
+}
+section.plan{
+    position: relative;
+   }
+body{
+    background-color: white;
+}
+.center{
+    width: 1080px;
+    margin: auto;
+}
+.vartical--space{
+  padding: 4rem  0; 
+}
+nav{
+    background-color: var(--color-white);
+}
+nav > div.primary-nav{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid rgb(190, 181, 181);
+    padding: 0.7rem;
+}
+nav > div.primary-nav > div.contact{
+    display: flex; 
+    align-items: center;
+    font-size: 16px;
+    align-self: center;
+}
+div.primary-nav > div.contact > div > p:last-child{
+    font-weight: bolder;
+}
+nav > div.primary-nav > div.social-icons{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+nav > div.primary-nav > div.social-icons > img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+nav > div.secondary-nav {
+    background-color: var(--color-white);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav > div.secondary-nav > a{
+    padding: 0.7rem 1.5rem;
+    transition: all 1s linear;
+}
+nav > div.secondary-nav  > a:hover{
+    background-color: var(--color-yellow);
+}  
+nav > div.secondary-nav > a:first-child > i {
+    transition: transform 1s linear;
+}
+nav > div.secondary-nav > a:first-child:hover > i{
+    transform: rotateX(180deg);
+}
+ nav > div.secondary-nav > a:first-child{
+    position: relative;
+ }
+nav > div.secondary-nav > a:first-child > div.dropdown {
+    position: absolute;
+    width: 20rem;
+    background-color: white;
+    display: none;
+    left: 0;
+    top: 100%;
+}
+nav > div.secondary-nav > a:first-child:hover > div.dropdown {
+    display: inline-block;
+}
+nav > div.secondary-nav >a:first-child > div > p{
+    border-bottom: 1px solid rgb(14, 13, 13);
+    width: 100%;
+    padding: 0.7rem 1.5rem;
+} 
+nav > div.secondary-nav >a:first-child > div > p:hover{
+    background-color: yellow;
+}
+
+header{
+    background-image:url(./header_bg\ \(2\).png);
+    width: 100%;
+    height: 60vh;  
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    gap: 4rem;
+
+}
+
+header > div  {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+header > div > div{
+    display: flex;
+    margin-top: 20px;
+    gap: 1rem;
+} 
+header > div > div > div.contact {
+    display: flex;  
+}
+div.contact > i{
+    font-size: x-large;
+    padding: 0.5rem 0.5rem;
+}
+div.contact > div > p:last-child{
+    font-weight: bolder;
+}
+button{
+    background-color: yellow;
+    padding: 0.5rem 1rem;
+    /* margin-top: 20px; */
+    border-radius: 0.5rem;
+    margin-bottom: 5px;
+    
+}
+button > i{
+  padding: 0.5rem 0.5rem 0.2rem 2rem;
+}
+section.vartical--space >div.center >div.section{
+    display: flex;
+    gap: 5rem;
+}
+section >  div.section > div.about-us {
+    flex-grow: 2;
+    
+}
+section > div.testipart {
+    flex-grow: 1;
+}
+
+ div.about-us > div >a:first-child{
+    background-color: yellow;
+    padding: 0.5rem 1rem;
+    /* margin-top: 20px; */
+    border-radius: 0.5rem;
+    margin-bottom: 5px;
+    
+}
+ div.about-us > div > a:first-child > i{
+    padding: 0.5rem 0.5rem 0.2rem 2rem;
+  }
+
+ div.about-us > *:not(:last-child){
+    margin-bottom: 40px;
+}
+section > div.about-us  a:last-child{
+    text-decoration: underline;
+}
+section.vartical--space > div.about-us > h2{
+    font-weight: 600;
+    line-height: 34px;
+}
+ p.who{
+    color: gray;
+    font-weight: 900;
+ }
+
+ section.vartical--space > div.center >  div.section > div.testipart > div {
+    display: flex;
+    gap: 1.5rem;
+ }
+ section.vartical--space > div.center > div.section > div.testipart > div > i{
+    font-size: 50px;
+ } 
+ section.vartical--space > div.center > div.section > div.testipart > *:not(:last-child) {
+    margin-bottom: 50px;
+ }
+
+section.what-we-do > div.center > div.section-container{
+    display: flex;
+    gap: 7rem;
+    margin-bottom: 50px;
+}
+section.what-we-do > div.center > div.section-container >div:last-child{
+    display: flex;
+    gap: 1rem;
+}
+
+section.what-we-do > div.center > div:last-child{
+    display: flex;
+    gap: 3rem;
+}
+section.what-we-do {
+    background: linear-gradient(to top ,rgba(22, 22, 22, 0.267),transparent) ,  url(./../what_we_do_bg\ \(1\).png);
+    height: 60vh;
+    width: 100%;
+}
+section.what-we-do > div.center >  div.review > div{
+    text-align: center; 
+}
+
+section.what-we-do > div.center >  div.review > div:first-child{
+    background-color: white;
+    height: 200px;
+    text-align: center;
+} 
+
+   div.right{
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-40%);
+    width: 30%;
+   }
+   section div.left{
+    width: 70%;
+   }
+
+
+   div.right > div.card-1 >div:first-child{
+    background-color: pink;
+    border-bottom: 4px solid yellow;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    line-height: 30px;
+   }
+   div.right > div.card-1 > div.card-1 {
+    display: flex;
+    gap: 1rem; 
+   }
+   div.right > div.card-1 >*:not(:last-child){
+    margin-bottom: 20px;
+   }
+ 
+  section.plan > div.center  > div.left > *:not(:last-child) {
+    margin-bottom: 30px;
+  }
+
+  section.plan > div.center   > div.left > main.cards {
+    display: flex;
+    gap: 3rem;
+    flex-grow: 1;
+  }
+  section.plan > div.center  > div.left > p {
+    font-size: small;
+  }
+
+  section.plan > div.center   > div.left > p > a{
+    color: darkblue;
+    font-size: 20px;
+  } 
+  section.plan > div.center  > div.left > p > a > i{
+    font-size: small;
+    margin-bottom: 1px;
+  }
+ 
+   section.how-we-do > div.center  > div.section-container > div.production-cards{
+    display: flex;
+    gap: 2rem;
+   }
+   section.how-we-do > div.center  >  div.section-container > div.production-cards>i{
+    font-size: 100px;
+   }
+   div.production-cards > div > h3{
+    margin-top: 20px;
+   }
+
+   div.production-cards > div > p{
+    margin-bottom: 30px;
+   }
+section.news{
+    background: url(./../what_we_do_bg\ \(1\).png);  
+    height: 80vh;
+    width: 100%;
+}
+section.news > div.center > div.section-container > div.News{
+    display: flex;
+    gap: 2rem;
+    margin-top: 30px;
+} 
+section.news > div.center > div.section-container > div.News > div >*{
+   padding: 0.7rem 0.7rem; 
+}  
+section.contact{
+    border-bottom: 1px solid rgb(15, 15, 15);
+    background-image: url(./../what_we_do_bg\ \(1\).png);
+    width: 100%;
+}
+
+ section.contact > div.center >div.questions {
+    display: flex;
+    gap: 2rem;
+    justify-content: space-between;
+    align-self: center;
+ }
+ section.contact > div.center > div.questions >div.right-1{
+    display: flex;
+    gap: 0.5rem;
+ }
+ section.contact > div.center > div.questions >div.right-1 > div  {
+    display: flex;
+    gap: 0.5rem;
+ }
+ section.contact > div.center > div.questions >div.right-1 > div > i{
+    padding: 0.5rem;
+ }
+ section.contact > div.center > div.products {
+    display: flex;
+    gap: 3rem;
+    margin-top: 50px;
+    align-items: center;
+    line-height: 30px;
+ }
+ section.contact > div.center > div.products >div:last-child{
+    padding: 0 6rem;
+ }
+
+ div.footer > nav {
+    background-color: white;
+ } 
+ div.footer > nav {
+    justify-content: space-between;
+    align-self: center;
+    display: flex;
+    padding: 1rem;
+ }

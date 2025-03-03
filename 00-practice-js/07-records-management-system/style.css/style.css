@@ -1,0 +1,100 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+    border:none;
+    color: #111111;
+}
+main{
+    min-height: 100vh;
+    background-color: #111111;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+form{
+    width: 350px;
+    padding: 1rem;
+    background-color: #111111;
+    border: 0.2rem solid azure;
+    border-radius: 0.2rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 1rem;
+}
+input,label,select{
+    width: 100%;
+    padding: 1rem 0.4rem;
+}
+button{
+    background-color: azure;
+}
+.success{
+  background-color: gold;
+  width: 100%;
+  padding: 1rem 0.4rem;
+  font-weight: bolder;
+  font-size: larger;
+  cursor: pointer;
+  text-align: center;
+}
+
+button{
+    width: 100%;
+    padding: 1rem 0.4rem;
+    font-weight: bolder;
+    font-size: larger;
+    cursor: pointer;
+    text-align: center;
+}
+
+h2{
+    font-size: larger;
+    font-weight: bolder;
+    color: azure;
+}
+div.gender-wrapper{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+div.gender-wrapper >label{
+     font-size: larger;
+     color: azure;
+}
+div#table-root{
+    position: absolute;
+    left: 200px;
+    top: 10vh;
+    width: 7vw;
+    /* height: 70vh; */
+    color: azure;
+}
+div#table-root > table{
+    border: 0.1rem solid azure;
+    border-radius: 0.2rem;
+    width: 100%;
+    height: 100%;
+}
+tr ,th ,td {
+    color: azure;
+    text-transform: capitalize;
+}
+
+th,td {
+    padding: 0.5rem 1rem;
+}
+th{
+    background-color: azure;
+    color: #111111;
+}
+
+.delete-button{
+    width: 100%;
+    background-color: deeppink;
+    padding: 1rem 0.5rem;
+}

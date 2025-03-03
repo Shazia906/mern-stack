@@ -1,0 +1,170 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+     font-family: sans-serif;
+}
+h1{
+    text-decoration: underline;
+    text-align: center;margin: 30px;
+}
+div.box-1{
+    background-color: aqua;
+    width: 300px;
+    height: 300px;
+    margin: 70px auto;
+    border: 10px solid darkred;
+    border-radius: 10px;
+    
+}
+.box-2{
+background-color: burlywood;
+width: 200px;
+height: 180px;
+margin:  60px auto;
+animation-name: move;
+animation-duration: 2s;
+animation-timing-function: linear;
+animation-iteration-count: infinite;
+border: 2px solid darkmagenta;
+}
+
+@keyframes move{
+   0%{
+    background-color: darkgoldenrod;
+   }
+   100%{
+    background-color: #006400b2;
+    border-top-right-radius: 60%;
+border-bottom-left-radius: 70%;
+   } 
+}
+
+.box-3{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    background-color: darkkhaki;
+    animation: rotate-1;
+    animation-duration: 2s; 
+    animation-timing-function: ease-in;
+    animation-iteration-count: infinite;
+    border-radius: 50%;
+    text-align: center;
+    border: 2px solid darkblue;
+    right: 100px;
+    top: 170px;
+}
+
+.box-4{
+    width: 40px;
+    height: 40px;
+    background-color: darkred;
+    border-radius: 10px;
+    /* margin: auto; */
+}
+@keyframes rotate-1{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+.box-5{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    background-color: darkcyan;
+    animation: rotate-2;
+    animation-duration: 2s; 
+    animation-timing-function: ease-in;
+    animation-iteration-count: infinite;
+    border-radius: 50%;
+    text-align: center;
+    border: 2px solid darkmagenta;
+    left: 100px;
+    top: 170px;
+}
+
+.box-6{
+    width: 40px;
+    height: 40px;
+    background-color: darkred;
+    border-radius: 10px;
+    margin: auto;
+}
+@keyframes rotate-2{
+    0%{
+        transform: rotateX(0deg);
+    }
+    100%{
+        transform: rotateX(360deg);
+    }
+}
+
+.box-7{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    background-color: darkgoldenrod;
+    animation: rotate-3;
+    animation-duration: 2s; 
+    animation-timing-function: ease-in;
+    animation-iteration-count: infinite;
+    border-radius: 50%;
+    text-align: center;
+    border: 2px solid darkgreen;
+    left: 100px;
+    top: 170px;
+}
+.box-8{
+    width: 40px;
+    height: 40px;
+    background-color: darkblue;
+    border-radius: 10px;
+    margin: auto;
+}
+@keyframes rotate-3{
+    0%{
+        transform: rotateY(0deg);
+    }
+    100%{
+        transform: rotateY(360deg);
+    }
+}
+main.box{
+    position: relative;
+    background-color: gray;
+    width: 100%;
+    height: 100vh;
+    border: 10px solid darkmagenta;
+    margin-top: 40px;
+
+}
+p{
+    position: absolute;
+    width: 20px;
+    height: 400px;
+    animation-name: move-1;
+    animation-duration: 15s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    background-color: brown;
+    overflow: hidden;
+    overflow: scroll;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+@keyframes move-1{
+   0%{
+    left: 0px;
+   } 
+   100%{
+    width: 90vw;
+   }
+}
+
+

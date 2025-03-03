@@ -1,0 +1,109 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.box{
+    width: 10rem;
+    height: 10rem;
+    background-color: red;
+    transition-property: all;
+    transition-duration: 3s;
+    transition-timing-function: ease-out;
+    animation-name: animate;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+    border-radius: 100px;
+}
+    
+.box:hover{
+transform: translateX(300px);
+    width: 15rem;
+    height: 15rem;
+    background-color: green;   
+
+}
+ @keyframes animate{
+    0%{
+        background-color: red;
+    }
+    100%{
+        background-color: green;
+        
+    }
+ }
+
+  div.path{
+    width: 100%;
+    height: 6rem;
+    background-color: grey;
+    margin-bottom: 1rem;
+  }
+  img{
+    height: 15vh;
+    animation-name: race;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-direction: alternate-reverse;
+    animation-iteration-count: infinite;
+
+  }
+  div.path1 img{
+    animation-timing-function: linear;
+
+  }
+  div.path2 img{
+    animation-timing-function: ease-in;
+  }
+  div.path3 img{
+    animation-timing-function: ease-out;
+  }
+  div.path4 img{
+    animation-timing-function: ease-in-out;
+  }
+
+   @keyframes race{
+    0%{
+    transform: translateX(0);
+    }
+    100%{
+    transform: translateX(90vw); 
+        
+    }
+ }
+ h1{
+  text-align: center;
+  text-decoration: underline;
+ }
+
+/*  
+div.path1 img:hover{
+  transition-property: all;
+  transition-duration: 5s;
+  transition-timing-function: linear;
+transform: translateX(100vw);
+}
+ 
+div.path2 img:hover{
+  transition-property: all;
+  transition-duration: 5s;
+  transition-timing-function: ease;
+transform: translateX(100vw);
+}
+ 
+div.path3 img:hover{
+  transition-property: all;
+  transition-duration: 5s;
+  transition-timing-function: ease-in;
+transform: translateX(100vw);
+}
+ 
+div.path4 img:hover{
+  transition-property: all;
+  transition-duration: 5s;
+  transition-timing-function: ease-in-out;
+transform: translateX(100vw);
+} */

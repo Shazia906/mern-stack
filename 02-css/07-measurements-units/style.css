@@ -1,0 +1,57 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+/* fixed units */
+/* px */
+
+/* 
+div.container{
+    background-color: gold;
+    width:  1400px ;
+    height: 700px ;
+} */
+
+/* reletive units */
+/* vh,vw,rem */
+H1{
+    text-align: center;
+    text-decoration: underline;
+    margin-top: 20px;
+}
+html{
+    font-size: calc(10px + 1vmin); 
+}
+
+
+.container{
+    background-color:  lawngreen;
+    /* width: 50vw; */
+    height: 60vh;
+    /* width: 80%; */
+width: 80vh;
+    /* height: 90%; */
+    margin: 60px auto;
+    border: 10px solid red;
+    border-radius: 50%;
+    text-align: center;
+    font-size: large;
+    margin-top: 10px;
+}
+
+.main{
+    width: 10rem;
+    height: 10rem;
+    background-color: darkblue;
+    margin: auto;
+    margin-top: 90px;
+    text-align: center;
+    font-size: large;
+
+}
+
+/* 2000kg/100=2kg(1part) */
+/* 30th multiple 1partkg=600kg */

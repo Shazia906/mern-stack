@@ -1,0 +1,33 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+main>h3::selection{
+    background-color: red
+}
+
+h1::after{
+    content: "";
+display: inline-block;
+background-color: darkolivegreen;
+width: 70%;
+height: 1rem;
+margin-top: 0px;
+position: relative;
+left:  20rem;
+border-radius: 1rem;
+}
+h2::before{
+
+    content: "";
+display: inline-block;
+background-color: red;
+width: 70%;
+height: 1rem;
+margin-top: 30px;
+position: relative;
+left: 0rem;
+border-radius: 1rem; 
+}

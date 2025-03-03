@@ -1,0 +1,44 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+main{
+    background-color: rgb(136, 185, 185);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+}
+
+input{
+    width: 270px;
+    padding: 8px;
+    border: 2px solid deeppink;
+    outline: none;
+    font-size: 19px;
+}
+button{
+    margin-top: 10px;
+    padding: 15px 20px;
+    border-radius: 0.8rem;
+    background-color: deeppink;
+}
+button.game{
+    cursor: not-allowed;
+}
+p{
+  font-size: larger;
+}
+.crsr{
+  position: absolute;
+  background-color: white;
+  width: 20px;
+  height: 20px;
+  border-radius: 50px;
+  mix-blend-mode: difference;  
+}

@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    text-decoration: none;
+    --color:var(--color-black) 
+ } 
+ div{
+    margin-top: 100px;
+    margin-left: 30px;
+ }
+ table {
+    width: 80%;
+    color: azure;
+}
+table, th, td {
+    border: 1px solid azure;
+}
+th, td {
+    padding: 8px;
+    text-align: left;
+}
+button{
+  padding: 20px 30px;
+  background-color: azure;
+  color: black;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  border-radius: 0.8rem;
+}
+body{
+    background-color:rgb(22, 22, 22);
+}

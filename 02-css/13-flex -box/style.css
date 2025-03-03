@@ -1,0 +1,87 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: calc(12px+1vmin);
+}
+main.box{
+    /* position: absolute; */
+    background-color: burlywood;
+     width: 100%; 
+    height: 100vh;
+    gap: 0.5rem; 
+    /* height: 10rem;
+    width: 25rem; */ 
+    display: flex;
+    /* padding: 2px; */
+    /* justify-content: start; */
+    /* justify-content: end; */
+    justify-content: center;
+    /* align-items: start; */
+    /* align-items: end; */
+    align-items: center;
+    /* align-items: baseline; */
+       /* align-items: center; */
+    /* flex-direction: row; */
+       /* flex-direction: column; */
+       /* gap: 10px; */
+       /* flex-wrap: nowrap; */
+       flex-wrap: wrap;
+   
+}
+
+ main > *{ 
+    background-color: darkgoldenrod;
+    width: 5rem;
+    height: 5rem;
+    font-size: x-small;
+    /* padding: 1rem; */
+    /* border-radius: 50%; */
+    /* text-align: center; */
+    border: 1px solid black;
+    border-radius: 10px;
+    /* flex-grow: 1; */
+    flex-shrink: 0;
+    text-align: center;
+}
+.box-2
+{
+    background-color: darkred;
+    width: 5rem;
+    height: 5rem;
+    font-size: x-small;
+    /* border-radius: 50%; */
+    /* text-align: center; */
+    border: 2px solid black;
+    /* flex-shrink: 1; */
+    /* flex-grow: 1; */
+
+}
+.box-3{
+    background-color: green;
+    width: 5rem;
+    height: 5rem;
+    font-size: large;
+    /* border-radius: 50%; */
+    /* text-align: center; */
+    border: 2px solid black;
+    /* flex-shrink: 2; */
+    /* flex-grow: 15; */
+    /* flex-grow: 2; */
+
+}
+.box-4{
+    background-color: darkmagenta;
+    width: 5rem;
+    height: 5rem;
+    font-size: x-small;
+    /* border-radius: 50%; */
+    /* text-align: center; */
+    border: 2px solid black;
+    /* flex-shrink: 3; */
+    /* flex-grow: 2; */
+    
+}

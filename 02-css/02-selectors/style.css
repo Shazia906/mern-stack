@@ -1,0 +1,24 @@
+h3{
+    background: violet;
+    
+}
+
+.heading{
+    background: lawngreen;
+    display: inline;
+
+}
+
+#heading{
+    background: firebrick;
+    text-align: center;
+}
+*{
+    background: green;
+}
+body{
+    background: bisque;
+}
+html{
+    background: tomato;
+}

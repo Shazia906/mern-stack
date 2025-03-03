@@ -1,0 +1,119 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+/* css positions */
+body{
+    text-align: center;
+}
+.block{
+    background-color: rgba(26, 25, 25, 0.877);
+    width: 600px;
+    margin: auto;
+    position: relative;
+    margin-top: 50PX;
+}
+.element{
+    border: 2px solid black;
+}
+.element1{
+    background-color: rgb(20, 185, 92);
+    position: static; 
+    width: 300px;
+    height: 400px;
+    margin-left: 40px;
+    /* margin-top: 20px; */
+      /* margin: 50px; */
+      /* margin-top: 300px; */
+    /* margin-right: 10px; */
+    /* margin-bottom: 40px; */
+}
+
+.element2{ 
+    width: 300px;
+    height: 400px;
+    position: relative;
+    background-color: crimson;
+    top: 20px;
+    /* bottom: 20px; */
+    /* left: 50px;right: 50px; */
+}
+
+.element3{
+    width: 300px;
+    height: 400px;
+    position: absolute;
+    /* top: 20px; */
+    background-color: coral;
+    right: 30px;
+    /* bottom: 40px; */
+    /* left: 30px; */
+}
+
+.element4{
+    width: 300px;
+    height: 400px;
+    background-color: deeppink;
+    position: fixed;
+    /* top: 20px; */
+    /* right: 30px;  */
+    left: 20px;
+    /* bottom: 60px;   */
+    /* left: 30px ; */
+    /* top: 40px; */
+    /* right: 40px; */
+    bottom: 40px;
+}
+.element5{
+    width: 300px;
+    height: 400px;
+    background-color: rgb(36, 129, 129);
+    /* top: 20px; */
+    /* right: 30px;  */
+    /* left: 40px; */
+    /* bottom: 60px;   */
+    /* left: 30px ; */
+    /* top: 40px; */
+    /* right: 40px; */
+    /* bottom: 30px; */
+}
+/* 
+div{
+    background-color: violet ;
+    width: 300px; 
+    height: 400px;
+    overflow-y: hidden;
+    overflow-y: scroll;
+    overflow-y: auto;
+margin: 20px;
+}
+
+.sticky1{
+    position: sticky;top: 0px;
+    background-color: green;
+    width: 275px;
+    height: 30px;
+    text-align: center;
+}
+
+.sticky2{
+    background-color: red;
+    height: 30px;
+    width: 275px;
+    position: sticky;
+    top: 20px;
+    text-align: center;
+}
+
+.sticky3{
+    background-color: darkblue;
+    height: 30px;
+    width: 275px;
+    position: sticky;
+    top: 40px;
+    text-align: center;
+}
+ */

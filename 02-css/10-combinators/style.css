@@ -1,0 +1,31 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* p{
+    background-color: blue;
+} */
+
+/* combinators */
+
+/* desendent selector (space)*/
+
+section.section p{
+    background-color: red;
+}
+
+/* child selector(>) */
+
+section.section >p {
+    background-color: green ; 
+}
+/* adjasent selector */
+section.section >h3~p{ 
+    background-color: yellow;
+}
+/* gernal sibling selector */ 
+section.section >p~h3{
+    background-color: darkblue;
+}

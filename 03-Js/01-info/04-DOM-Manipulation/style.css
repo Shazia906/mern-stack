@@ -1,0 +1,23 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+button.check-base-style{
+    width: 150px;
+    height: 70px;
+    border: 0.5rem solid purple;
+    color: purple;
+    background-color: azure;
+    border-radius: 50%;
+    cursor: pointer;
+}
+button.active-check-style{
+    color: azure;
+    background-color: purple;
+}
+button{
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+}

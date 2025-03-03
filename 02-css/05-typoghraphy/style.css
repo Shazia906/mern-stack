@@ -1,0 +1,49 @@
+
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap') */
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.p{
+    /* text-align: left; */
+    /* text-align: right; */
+      text-align: center;
+/* background-color: aqua; */
+
+/* text-decoration: underline; */
+/* text-decoration: overline;
+margin: 10px; */
+/* text-decoration: line-through; */
+
+/* font-family: "poppins", sans-serif;*/
+font-family:sans-serif;
+font-style: italic;
+font-weight:  900;
+font-size:xx-large;
+background-color: brown;
+display: block;
+
+}
+
+#paraghraph{
+    background-color: burlywood;
+    color: darkblue;
+word-spacing: 30px;
+letter-spacing: 30px;
+line-height: 60px;
+/* text-wrap: nowrap; */
+text-wrap: wrap;
+/* text-transform: lowercase; */
+/* text-transform: uppercase; */
+text-transform: capitalize;
+
+}
+        
+ .box{
+    background-color: darkorange;
+    color: black;
+    box-shadow: magenta;
+
+ }

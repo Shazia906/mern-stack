@@ -1,0 +1,136 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    background-color: rgba(207, 200, 160, 0.973);
+}
+
+div.container-1{
+    background-color:  rgba(183, 223, 223, 0.582);
+    width: 500px;
+    height: 660px;
+    overflow-y: hidden;
+    position: absolute;
+    top: 80px;
+    right: 270px;
+    overflow-y: scroll;
+}
+div{
+    /* font-weight: bold; */
+    font-size: large;
+}
+
+nav{
+    background-color: deeppink;
+    position: sticky;
+    height: 30px;
+    right: 100px;
+}
+
+.sticky-1{
+    position: sticky;
+    top: 0px;
+}
+.sticky-2{
+    position: sticky;
+    top: 20px;
+}
+.sticky-3{
+    position: sticky;
+    top: 40px;
+}
+.sticky-4{
+    position: sticky;
+    top: 60px;
+}
+.sticky-5{
+    position: sticky;
+    top: 80px;
+}
+.sticky-6{
+    position: sticky;
+    top: 100px;
+}
+.sticky-7{
+    position: sticky;
+    top: 120px;
+}
+.sticky-8{
+    position: sticky;
+    top: 140px;
+}
+.sticky-9{
+    position: sticky;
+    top: 160px;
+}
+.sticky-10{
+    position: sticky;
+    top: 180px;
+}
+
+div.container-2{
+    background-color: rgba(183, 223, 223, 0.582);
+    height: 660px;
+    width: 500px;
+    overflow-y: auto;
+    position: absolute;
+    top: 30px;
+    left: 270px;
+    margin-top: 50px;
+    
+}
+
+div{
+    background-color: blue;
+    position: sticky;
+    /* height: 20px; */
+}
+
+.test-1{
+    position: sticky;
+    background-color: deeppink;
+    top: 0px;
+}
+.test-2{
+    position: sticky;
+    background-color: orangered;
+    top: 0px;
+}
+.test-3{
+    position: sticky;
+    background-color: darkgoldenrod;
+    top: 0px;
+}
+.test-4{
+    position: sticky;
+    background-color: hotpink;
+    top: 0px;
+}
+.test-5{
+    position: sticky;
+    background-color: yellow;
+    top: 0px;
+}
+.test-6{
+    position: sticky;
+    background-color: brown;
+    top: 0px;
+}
+.test-8{
+    position: sticky;
+    background-color: seagreen;
+    top: 0px;
+}
+.test-9{
+    position: sticky;
+    background-color: lawngreen;
+    top: 0px;
+}
+.test-10{
+    position: sticky;
+    background-color: darkmagenta;
+    top: 0px;
+}

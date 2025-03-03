@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    text-decoration: none;
+
+}
+main{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    flex-direction: column;
+    /* background-color: rgb(220, 20, 130); */
+}
+
+button{
+    border: none;
+    cursor: pointer;
+    outline: none;
+    padding: 20px 30px;
+    background-color:rgb(6, 39, 39) ;
+    color: white;
+    border-radius: 8px;
+    font-size: large;
+}
+span#picker{
+    width: 150px;
+    height: 60px;
+    background-color: rgb(6, 39, 39);
+    /* border: 2px solid rgb(36, 35, 35); */
+    text-align: center;
+    font-size: x-large;
+    border-radius: 0.5rem;
+    line-height: 50px;
+    box-shadow: 0px 0px  0px 0.3px;
+    cursor: pointer;
+    border:none;
+    outline: none;
+    color: azure;
+}

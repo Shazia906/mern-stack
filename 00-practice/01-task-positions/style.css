@@ -1,0 +1,133 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    /* box-sizing: content-box; */
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.container-1{
+    width: 500px;
+    height: 600px;
+    background-color: yellow;
+    margin: auto;
+    margin-top: 60px;
+    border: 1px solid green;
+    border-radius: 10px;
+
+}
+
+.Relative{
+
+width: 400px;
+height: 500px;
+background-color: palegreen;
+margin: auto;
+position: relative;
+top: 30px;
+/* left: 40px; */
+border: 1px solid green ;
+border-radius: 10px;
+text-align: right;
+
+}
+
+.Element-1{
+    width: 100px;
+    height: 100px;
+    background-color: magenta;
+     border-radius: 50px;
+     border: 1px solid green;
+     text-align: center;
+     position: relative;
+}
+
+.Element-2{
+    width: 100px;
+    height: 100px;
+    background-color:lightseagreen;
+     border-radius: 50px;
+     border: 1px solid green;
+     position: absolute;
+     top: 120px;
+     text-align: center;
+     /* right: 10px; */
+}
+
+.Element-3{
+    width: 100px;
+    height: 100px;
+    background-color:red;
+     border-radius: 50px;
+     border: 1px solid green;
+    position: fixed;
+    top: 350px ; 
+     text-align: center;
+    
+} 
+
+.container-2{
+    width: 500px;
+background-color: yellow;
+height: 600px;
+    margin: auto;
+    margin-top: 60px;
+    border: 1px solid green;
+    border-radius: 10px;
+
+}
+
+.relative{
+    width: 400px;
+height: 500px;
+margin: 20px auto;
+
+border: 1px solid green ;
+background-color: rgb(138, 224, 138);
+border-radius: 10px;
+text-align: right;
+/* position: relative; */
+}
+
+.element1{
+    width: 100px;
+    height: 100px;
+    background-color: deeppink;
+     border-radius: 50px;
+     border: 1px solid green;
+     text-align: center;
+     position: relative;
+     /* left: 15px; */
+     /* right: 20px; */
+}
+.element2{
+    width: 100px;
+    height: 100px;
+    background-color: darkgoldenrod;
+     border-radius: 50px;
+     border: 1px solid green;
+     position: absolute;
+     /* top: 120px; */
+     margin-top: 30px;
+     text-align: center;
+     /* left: 15px; */
+     /* right: 10px; */
+     /* top: 200px; */
+     /* right: 10px; */
+}
+.element3{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(209, 137, 50);
+     border-radius: 50px;
+     border: 1px solid green;
+    position: fixed;
+    bottom: 230px ;
+    /* bottom: 10px ;  */
+     text-align: center;
+     /* top: 400px; */
+     /* left: 750px; */
+     /* right: 30px; */
+     /* bottom: 30px; */
+     /* top: 40px; */
+}

@@ -1,0 +1,58 @@
+
+main {
+    width: 400px;
+    padding: 33px;
+    text-align: center;
+    background-color: #fff;
+    margin-left: 33%;
+    margin-top: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+}
+
+input{
+    width: 270px;
+    padding: 8px;
+    border: 2px solid rgb(94, 209, 209);
+    outline: none;
+    font-size: 19px;
+}
+button{
+    width: 60px;
+    height: 41px;
+    background-color: rgb(15, 17, 17);
+    color: white;
+    border-radius:2px;
+    font-size: 19px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+main div#input-div{
+    display: flex;
+    gap: 0.5rem;
+}
+main div#class-div{
+    display: flex;
+    display: block;
+}
+
+#class-div div{
+    /* position: relative; */
+    background-color: rgb(16, 20, 20);
+    text-align: left;
+    padding: 20px;
+    color: azure;
+    margin-top: 20px;
+    position: relative;
+    font-size: large;
+}
+#class-div div button{
+    width: 10px 20px;
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    background-color: #fff;
+    color: black;
+}

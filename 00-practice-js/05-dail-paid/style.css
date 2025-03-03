@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    text-decoration: none;
+
+}
+main{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* gap: 0.3rem; */
+    flex-direction: column;
+    /* background-color: rgb(220, 20, 130); */
+}
+
+section{
+    width: 420px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 1rem;
+    background-color: purple;
+    gap: 1rem;
+    border-bottom-left-radius: 0.2rem;
+    border:0.3rem solid black;
+    position: relative;
+}
+ section >button{
+    border: none;
+    cursor: pointer;
+    outline: none;
+    padding: 15px 0px;
+    color: black;
+    border-radius: 8px;
+    font-size: x-large;
+    flex-grow: 1;
+    min-width: 28%;
+    margin: 3px 1px; background: white;
+};
+

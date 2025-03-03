@@ -1,0 +1,78 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+html{
+    font-size: calc(12px+1vmin);
+}  
+
+body{
+    background-color: lightgray;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+main{
+    background-color: rgba(106, 199, 199, 0.925);
+    width: 20rem;
+    height: 20rem;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+     perspective:500px; 
+}
+
+main > div.box-1 { 
+    background-color: rgba(255, 68, 0, 0.76);
+    width: 15rem;
+    height: 15rem; 
+    transition-property: all;
+    transition-duration: 1s;
+    transition-timing-function: linear;
+     line-height: 15rem;
+    /* position: absolute;
+    z-index: 2; 
+     text-align:center; */
+
+}
+main > div.box-1:hover{
+    /* transform: scale(1.5); */
+    /* transform: scale(1.5); */
+    /* transform: scaleX(1.5); */
+    /* transform: scaleY(1.5); */
+    transform: scaleZ(1.5);
+    /* transform: translate(-50%); */
+/* transform: translateX(50%) translateY(50%);  */
+/* transform: translateZ(50px); */
+/* transform: rotateX(45deg); */
+/* transform: rotateY(50deg); */
+/* transform: rotateZ(-50deg); */
+/* transform: skew(50deg); */
+/* transform: skewX(50deg); */
+/* transform: skewY(50deg); */
+  /* transform-origin: 70% 40%; */
+  /* transform-origin: 50px 50px; */
+/* transform-origin: 120% 120%; */
+/* transform-origin: 70% 80%; */
+/* transform-origin: 200px 200px; */
+}
+
+/* div.box-2{
+    background-color: rgba(184, 135, 11, 0.568);
+    width: 15rem;
+    height: 15rem;
+    flex-shrink: 0;
+    z-index: 1;
+    text-align:center;
+}
+div{
+    font-size: 3rem;
+} */

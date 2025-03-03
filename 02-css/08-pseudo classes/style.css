@@ -1,0 +1,38 @@
+/* *{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+} */
+
+body{
+    text-align: center;
+}
+
+a:link{
+    display: inline-block;
+    padding: 5rem 6rem;
+    background-color: magenta;
+    color: blue;
+    font-weight: 100;
+    border:  2px deeppink solid;
+    border-radius: 20px;
+} 
+ 
+ 
+a:visited{
+  background-color: green;
+}
+a:hover{
+ 
+    background-color: yellow;
+    color: red;
+}
+
+a:active{
+  
+    background-color: red;
+    /* color: green;  */
+}
+
+

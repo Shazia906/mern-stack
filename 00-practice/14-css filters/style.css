@@ -1,0 +1,53 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+h1{
+    text-align: center;
+    text-decoration: underline;
+}
+main{
+    display: flex;
+    margin: 1rem;
+    gap: 4rem;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+div.box-1>img:hover{
+filter :blur(5px);
+}
+div.box-2>img:hover{
+filter :brightness(220%);
+}
+div.box-3>img:hover{
+filter :contrast(200);
+}
+div.box-4>img:hover{
+filter :grayscale(30);
+}
+div.box-5>img:hover{
+filter :drop-shadow(1px 20px 20px green);
+}
+div.box-6>img:hover{
+filter :grayscale(100);
+}
+div.box-7>img:hover{
+filter :hue-rotate(190deg);
+}
+div.box-8>img:hover{
+filter :invert(6);
+}
+div.box-9>img:hover{
+filter : opacity(60%);
+}
+div.box-10>img:hover{
+filter : saturate(190%);
+}
+div.box-11>img:hover{
+filter : sepia(80%);
+}
+
+
